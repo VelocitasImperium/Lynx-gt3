@@ -35,7 +35,7 @@ We hope you find the order and assembly process smooth, and a reminder that we a
 
 ## 3. Bom and parts
 
-The BOM is available [**here**](https://docs.google.com/spreadsheets/d/1FHKVDJvTqiSSPm0fXGAgw0jcgytXlTn-GmOWtaGsIfA/edit?usp=sharing) and you can make your own copy to tick off parts as you go.
+The BOM is available [**here**](https://docs.google.com/spreadsheets/d/1uzJCVUC2JA4b9Ml0SUP_GdBx_7S3SUhBVGsg9-VD-hc/edit#gid=1313035800) and you can make your own copy to tick off parts as you go.
 
 It's a good idea to order everything before starting so that you don't miss anything or end up with incorrect parts. The BOM also contains some useful tips on what parts to order and recommendations, _as well as some recommended tools for the job!_ We have intentionally left some flexibility with the parts (eg: switches from either AliExpress or Mouser) so you can make the decision on how much you'd like to spend. In general, the extra money does reflect extra quality but if you think you can get a great deal somewhere else, go for it! That's the benefit of DIY 🙂 \*Velocitas Imperium are not endorsing any of these parts, just making helpful suggestions if you are struggling to source the parts yourself\*
 
