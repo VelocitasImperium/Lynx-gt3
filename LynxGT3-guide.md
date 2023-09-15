@@ -500,7 +500,7 @@ Then you can mount the holders(with the shifter/clutch combo) to the front plate
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly10.png" width="600">
 
-**NOTE**: You can add some double-sided tape to the 3D printed surface that will be facing the front plate.
+**NOTE**: You can add some double-sided tape to the 3D printed holders that will be facing the front plate.
 Why? Because two smooth surfaces have a tendency to move, even with a lot of torque as a preload.
 
 **NOTE**: If the lower buttons don't have enough room to get under the clutch, you can loosen the holder a little, position the button, and then tighten everything again.
