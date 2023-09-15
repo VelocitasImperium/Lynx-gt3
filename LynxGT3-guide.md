@@ -437,7 +437,7 @@ In this part we will need this parts:(refer to the bom for the specific parts)
   </tr>
   <tr>
     <td>Gx12 Female connector</td>
-    <td>8</td>
+    <td>1</td>
   </tr>
 </table>
 
