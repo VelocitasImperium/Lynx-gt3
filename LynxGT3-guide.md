@@ -198,16 +198,12 @@ In this part of the guide you will need this items:
     <td>2</td>
   </tr>
   <tr>
-    <td>2-Pin Female  Connector</td>
-    <td>8</td>
-  </tr>
-  <tr>
     <td>2 Pin female connector</td>
     <td>12</td>
   </tr>
   <tr>
     <td>3 Pin female connector</td>
-    <td>2</td>
+    <td>2 + 2 optiona(for encoders)</td>
   </tr>
   <tr>
     <td>4 Pin female 90-Deg connector</td>
@@ -217,7 +213,7 @@ In this part of the guide you will need this items:
 
 ## 5.1 PCB soldering
 
-Solder the encoders and Alps 7-way switches(optional) to the front where the smd components are and the connectors to the other side(encoders 3 pin connectors are optional, they would take the plpace of two buttons if you desire), and solder the 2x3 pin header on the pcb, it will be needed to flash the PCB then you can desolder it.
+Solder the encoders and Alps 7-way switches(optional) to the front where the smd components are and the connectors to the other side(encoders 3 pin connectors are optional, they would take the place of two buttons if you desire), and solder the 2x3 pin header on the pcb, it will be needed to flash the PCB then you can desolder it.
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-PCBsolder1.png" width="600">
 
@@ -299,6 +295,10 @@ As the materials needed are not linked in the BOM here is the list of what you w
 </ul></li>
 </ul>
 
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly9.jpg" width="600">
+
+
+
 ## 6. Clutch/Shifter Links
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideShifter1.png" width="600">
@@ -347,7 +347,7 @@ Here is another example if you're using an Arduino nano as programmer
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash7.png" width="600">
 
 
-Once you have completed the wiring you can plug the Arduino board into your PC, if you have done everything correctly you will notice that the PWR LED on the Taurus PCB is ON, now you can burn the bootloader:
+Once you have completed the wiring you can plug the Arduino board into your PC, if you have done everything correctly you will notice that the PWR LED on the Lynx PCB is ON, now you can burn the bootloader:
 
 Select the **Arduino Micro** on the "Board:" section.
 
@@ -382,7 +382,7 @@ Then you can press " **ADVANCED**" and select "Upload hex file to arduino", sele
 
 It will tell you that your upload was successful, otherwise check the error, close anything that might be interfering with the COM port (like the Arduino IDE) and try again.
 
-Now that the programming is complete the buttons should work. We can test these by opening "Game Controllers" from the control panel in windows and selecting "Properties" on the Taurus. On the "Test" tab we can press each of the buttons which should trigger the light to turn red momentarily. Feel free to test all the buttons/features and move to the next step when comfortable.
+Now that the programming is complete the buttons should work. We can test these by opening "Game Controllers" from the control panel in windows and selecting "Properties" on the Lynx. On the "Test" tab we can press each of the buttons which should trigger the light to turn red momentarily. Feel free to test all the buttons/features and move to the next step when comfortable.
 
 **NOTE**: The Windows Game Controller only reads the first 32 inputs of the board, so don't worry if some of the buttons don't show up, you'll need another piece of software to read all the rest.
 
