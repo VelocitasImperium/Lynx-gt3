@@ -103,7 +103,7 @@ Press **Confirm** to move to the next page.
 
 Upload both the BOM and CPL as shown in the photo to this new page.
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb5.png" width="600">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-PCBguide5.png" width="600">
 
 After hitting process BOM & CPL you will get into the list of all the components needed for the build, it is all pre-configured by us, so you will need to hit **NEXT**.
 
@@ -216,7 +216,7 @@ In this part of the guide you will need this items:
 
 ## 5.1 PCB soldering
 
-(Optional)Solder the encoders and Alps 7-way switches to the front where the smd components are and the connectors to the other side, and solder the 2x3 pin header on the pcb, it will be needed to flash the PCB then you can desolder it.
+Solder the encoders and Alps 7-way switches(optional) to the front where the smd components are and the connectors to the other side(encoders 3 pin connectors are optional, they would take the plpace of two buttons if you desire), and solder the 2x3 pin header on the pcb, it will be needed to flash the PCB then you can desolder it.
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-PCBsolder1.png" width="600">
 
@@ -288,10 +288,16 @@ I have done this operation by dividing the whole process into three parts, for e
 
 
 As the materials needed are not linked in the BOM here is the list of what you will need to achieve this result:
+<ul>
+<li>[**2:1 OD**](https://s.click.aliexpress.com/e/_Dd84PJj): 4mm Cut to Lenght 13mm</li>
+<li>[**3:1  OD**](https://s.click.aliexpress.com/e/_DlHQoKH): 9.5mm Cut to Lenght 2.5mm</li>
+<li>[**4:1 OD**](https://s.click.aliexpress.com/e/_DDcuoJn): 12mm
+<ul>
+<li>Length 2.5mm For Chinese Buttons</li>
+<li>Lenght 3mm MB/EB2011 NKK</li>
+</ul></li>
+</ul>
 
-[**2:1 OD**](https://s.click.aliexpress.com/e/_Dd84PJj): 4mm Cut to Lenght 13mm
-[**3:1  OD**](https://s.click.aliexpress.com/e/_DlHQoKH): 9.5mm Cut to Lenght 2.5mm
-[**4:1 OD**](https://s.click.aliexpress.com/e/_DDcuoJn): 12mm
 <ul>
 <li>Length 2.5mm For Chinese Buttons</li>
 <li>Lenght 3mm MB/EB2011 NKK</li>
