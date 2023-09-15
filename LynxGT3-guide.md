@@ -221,6 +221,8 @@ Solder the encoders and Alps 7-way switches(optional) to the front where the smd
 
 **NOTE:** The PCB may be slightly different, so refer to what is written on the PCB.
 
+**NOTE**: The two 3 Pin header connectors at the bottom (J1 and J8) are optional if you want to use 2 rotary encoders in place of two buttons.
+
 TIP: Clean the board after finishing as some types of flux or solder with flux may be corrosive.
 
 ## 5.2 12mm connector
@@ -297,7 +299,13 @@ As the materials needed are not linked in the BOM here is the list of what you w
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly9.jpg" width="600">
 
-
+**Steps:**
+<ul>
+  <li>Cut your 2-pin cable to 15cm and insert it into the first heat shrink and twist it into an evenly twisted shape. Lock both ends to prevent it from unravelling or crumpling.Now apply heat until the twisted pattern begins to appear, being careful not to melt the plastic connector.</li>
+  <li>Now you can solder the cable to your Button paying attention to the use the **NO** and **COM Pins** </li>
+  <li>Insert the second heat shrink completely covering the two pins you soldered (Ignoring the third external one) and start applying heat, when the heatshrink closes any gap bend the whole assembly creating a steep angle as shown in the picture</li>
+  <li>Insert the last heatshrink and apply heat till the gap is closed creating a seamless “heat shrink boot” and bend again to keep the shape</li>
+</ul>
 
 ## 6. Clutch/Shifter Links
 
