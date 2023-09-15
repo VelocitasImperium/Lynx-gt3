@@ -161,7 +161,7 @@ The following settings are intended for use with a 0.4mm nozzle and wall line co
     <td>0,20/0,24</td>
     <td>60%</td>
     <td>Yes</td>
-    <td>5,30H Front <br> 5,30H Rear <br> 4,30H Rear</td>
+    <td>5,30H Front <br> 4,30H Rear</td>
     <td> Print closer to the plate <br> to prevent warping </td>
   </tr>
 </table>
