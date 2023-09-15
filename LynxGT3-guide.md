@@ -435,7 +435,7 @@ In this part we will need this parts:(refer to the bom for the specific parts)
     <td>M3x30 Countersunk screws</td>
     <td>8</td>
   </tr>
-  tr>
+  <tr>
     <td>Gx12 Female connector</td>
     <td>8</td>
   </tr>
@@ -504,7 +504,7 @@ Finally fix the grips with the socket screws (Socket M4x8 and M4x16) (if you alr
 
 ## 9. Troubleshooting
 
-One problem we had with one of the builds was that the shifters were shorting out to the rear plate, creating ghost contacts on the PCB. Insulate the pins or cut them shorter.
+Still nothing to consider
 
 ## 10. Extras
 
