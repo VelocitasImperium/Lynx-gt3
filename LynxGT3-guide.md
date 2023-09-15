@@ -43,7 +43,7 @@ We will now cover some specifics for ordering certain items, such as the **Graph
 
 ## 3.1 Graphics/Adhesives
 
-**Button Rings**
+**Button Rings**:
 
 We provide two files for the button rings, there is only an orientation change to achieve the best print quality
 
@@ -103,7 +103,7 @@ Press **Confirm** to move to the next page.
 
 Upload both the BOM and CPL as shown in the photo to this new page.
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb3.png" width="600">
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb5.png" width="600">
 
 After hitting process BOM & CPL you will get into the list of all the components needed for the build, it is all pre-configured by us, so you will need to hit **NEXT**.
 
