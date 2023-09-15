@@ -510,7 +510,8 @@ One problem we had with one of the builds was that the shifters were shorting ou
 
 ## CUSTOMIZATION
 
-If you want to do some extra customisation to your Taurus, like different software, different encoders or anything else that requires you to write your own code, here is everything you need to write your own code.
+If you want to do some extra customisation to your Lynx, like different software, different encoders or anything else that requires you to write your own code, here is everything you need to write your own code.
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideCode1.png" width="600">
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideCode2.png" width="600">
+
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Code2.png" width="600">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Code1.png"600">
