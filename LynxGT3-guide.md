@@ -485,6 +485,7 @@ TIP: Fit the rear screws now, before you cover the grips with Alcantara. The hol
 These will be used to raise the clutch and shifter assembly, the clutch ones will hold the Funky in position, so if you plan to use the Funky switches, remember to fit them.
 
 Insert the heat inserts into the holders.
+
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly6.png" width="200">
 
 Then use M3x30 countersunk screws to secure both shifter and clutches on top of the holders, taking care not to pinch the clutch cables.
@@ -495,7 +496,7 @@ Then use M3x30 countersunk screws to secure both shifter and clutches on top of 
 
 Now you can fix in position the buttons too.
 
-Then you can mount the holders(with the shifter/clutch combo) on the front plate.
+Then you can mount the holders(with the shifter/clutch combo) to the front plate using two M3x12 countersunk screws.
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly10.png" width="200">
 
