@@ -1,0 +1,1 @@
+The code is a work in progress, we strongly recommend using [DDC](https://github.com/andreasdahl1987/DahlDesignDDC), you can join our [Discord](https://discord.gg/2UTqXsEPvk) if you need some help with the code and also pay a visit to Andreas Dahl [Discord](https://discord.gg/49btqWNmCc) and give him some support for the work he's doing with the community.
