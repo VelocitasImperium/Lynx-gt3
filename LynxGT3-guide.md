@@ -486,11 +486,11 @@ These will be used to raise the clutch and shifter assembly, the clutch ones wil
 
 Insert the heat inserts into the holders.
 
-<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly6.png" width="200">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly6.png" width="600">
 
 Then use M3x30 countersunk screws to secure both shifter and clutches on top of the holders, taking care not to pinch the clutch cables.
 
-<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="200">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="600">
 
 ## 8.4 Front plate
 
@@ -498,7 +498,7 @@ Now you can fix in position the buttons too.
 
 Then you can mount the holders(with the shifter/clutch combo) to the front plate using two M3x12 countersunk screws.
 
-<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly10.png" width="200">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly10.png" width="600">
 
 **NOTE**: You can add some double-sided tape to the 3D printed surface that will be facing the front plate.
 Why? Because two smooth surfaces have a tendency to move, even with a lot of torque as a preload.
