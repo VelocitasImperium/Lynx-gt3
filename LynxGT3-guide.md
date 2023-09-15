@@ -511,9 +511,9 @@ Not it’s time to fix the funky knobs with their grub screw and the button ring
 
 ## 8.5 Final touches
 
-Once this is done, we can connect the shifter, clutch and GX12 connector cables to the PCB, then use **M4x10 countersunk screws** to join both parts together.
+Once this is done, we can connect the shifter, clutch and GX12 connector cables to the PCB.
 
-Now you can apply the encoder stickers and knobs using the **M4 grub** screws, same will be done with funky knobs (**M3 grub**)
+Now you can apply the (optional)encoder knobs using the **M4 grub** screws, same will be done with funky knobs (**M3 grub**)
 
 Finally fix the grips with the socket screws (Socket M4x8 and M4x16) (if you already inserted the rear M4x16mm Socket screws just cut a little hole with the exacto knife).
 
