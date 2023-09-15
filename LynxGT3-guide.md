@@ -324,11 +324,11 @@ You can start by uploading the ISP sketch to your Arduino board as shown in the 
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash1.png" width="600">
 
-Then you need to connect your Arduino board to the Lynx PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the Taurus PCB, D10 goes to RESET.
+Then you need to connect your Arduino board to the Lynx PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the Lynx PCB, D10 goes to RESET.
 
-You can follow the silkscreen on the Taurus PCB as it's self-explanatory.
+You can follow the silkscreen on the Lynx PCB as it's self-explanatory.
 
-**NOTE** : If you are having trouble flashing the bootloader, you may have accidentally connected the RESET pin of your Arduino board to the Taurus PCB, the RESET pin on the Arduino board is not needed in this procedure, you will need to use the D10 pin instead.
+**NOTE** : If you are having trouble flashing the bootloader, you may have accidentally connected the RESET pin of your Arduino board to the Lynx PCB, the RESET pin on the Arduino board is not needed in this procedure, you will need to use the D10 pin instead.
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Flash1.png" width="600">
 
