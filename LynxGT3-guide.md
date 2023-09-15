@@ -46,6 +46,7 @@ We will now cover some specifics for ordering certain items, such as the **Graph
 **Button Rings**
 
 We provide two files for the button rings, there is only an orientation change to achieve the best print quality
+
 Resin print : Slope Emboss VShape
 FDM (consumer 3d printer) : Flat Emboss Rows
 
