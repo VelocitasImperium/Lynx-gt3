@@ -470,7 +470,6 @@ As the whole unit will be held in place by the 4 front screws that will be attac
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideGrips1.png" width="200">
 
-
 Do the same with the grips, as shown in the photo (It has to be done on the two fronts parts)
 
 They are all M4 and are pretty short, so be sure you get the right ones, you can find the required ones in the BOM.
@@ -490,13 +489,13 @@ Insert the heat inserts into the holders.
 
 Then use M3x30 countersunk screws to secure both shifter and clutches on top of the holders, taking care not to pinch the clutch cables.
 
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="200">
+
 ## 8.4 Front plate
 
 Now you can fix in position the buttons too.
 
 Then you can mount the holders(with the shifter/clutch combo) on the front plate.
-
-<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="200">
 
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly10.png" width="200">
 
