@@ -298,11 +298,6 @@ As the materials needed are not linked in the BOM here is the list of what you w
 </ul></li>
 </ul>
 
-<ul>
-<li>Length 2.5mm For Chinese Buttons</li>
-<li>Lenght 3mm MB/EB2011 NKK</li>
-</ul>
-
 ## 6. Clutch/Shifter Links
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideShifter1.png" width="600">
@@ -312,8 +307,6 @@ As the materials needed are not linked in the BOM here is the list of what you w
 You should already have all the parts for these as they are specified in the BOM, however these are actually 2 separate Velocitas Imperium projects so I will link their assembly guides here. They can also be use on any other VI project wheels:
 
 ## [Shifter Link](https://www.printables.com/model/372871-magnetic-shifter) & [Clutch Link](https://www.printables.com/model/372151-magnetic-clutch) ![](RackMultipart20230721-1-xflpll_html_97f24a0372db1a77.png)
-
-**Note**: Check that the pin/solder doesn't go beyond the shape of the shifter, as this could cause a short on the backplate (carbon is conductive) and give a false reading between the encoder and the shifter.
 
 ## 7. Flashing and Programming the PCB
 
@@ -330,13 +323,13 @@ You can start by uploading the ISP sketch to your Arduino board as shown in the 
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash1.png" width="600">
 
-Then you need to connect your Arduino board to the Taurus PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the Taurus PCB, D10 goes to RESET.
+Then you need to connect your Arduino board to the Lynx PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the Taurus PCB, D10 goes to RESET.
 
 You can follow the silkscreen on the Taurus PCB as it's self-explanatory.
 
 **NOTE** : If you are having trouble flashing the bootloader, you may have accidentally connected the RESET pin of your Arduino board to the Taurus PCB, the RESET pin on the Arduino board is not needed in this procedure, you will need to use the D10 pin instead.
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash2.png" width="600">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Flash1.png" width="600">
 
 You can use this table to understand which pins are MISO, MOSI and SCK on your Arduino board:
 
@@ -369,7 +362,7 @@ The image below shows an example of a configuration using an Arduino nano.
 
 It will take about 2 minutes, you can see the RX TX LED(on the programmer) flashing during this process, don't disconnect until the Arduino IDE says it's done.
 
-Now you can proceed without the Arduino Board and plug your Taurus PCB directly to the USB.
+Now you can proceed without the Arduino Board and plug your Lynx PCB directly to the USB.
 
 **NOTE** : If it gives an error, check your connection and that the IDE configuration is correct.
 
@@ -378,7 +371,7 @@ Now you can proceed without the Arduino Board and plug your Taurus PCB directly 
 You can choose to use the already proven (strongly recommended) [**DDC code**] (https://github.com/andreasdahl1987/DahlDesignDDC) by Andreas Dahl.
 In this section I'll cover the option of using our code, and in the last section there are the instructions if you want to do it yourself or make some modifications.
 
-To program the Arduino you will need to upload the provided hex(Taurus V2.hex). I use Simhub because it's based on the AVRDUDE software and comes with a simple GUI, but you can use whatever you like.
+To program the Arduino you will need to upload the provided hex(Lynx V2.hex). I use Simhub because it's based on the AVRDUDE software and comes with a simple GUI, but you can use whatever you like.
 
 First open simhub(latest version if possible) and go to the arduino page, then click on the blue button that says "Open arduino setup tool", select your board, serial port and click on the bottom toggle, like in this photo(your port may be different).
 
@@ -390,7 +383,7 @@ It will tell you that your upload was successful, otherwise check the error, clo
 
 Now that the programming is complete the buttons should work. We can test these by opening "Game Controllers" from the control panel in windows and selecting "Properties" on the Taurus. On the "Test" tab we can press each of the buttons which should trigger the light to turn red momentarily. Feel free to test all the buttons/features and move to the next step when comfortable.
 
-**NOTE: The Windows Game Controller only reads the first 32 inputs of the board, so don't worry if some of the buttons don't show up, you'll need another piece of software to read all the rest.
+**NOTE**: The Windows Game Controller only reads the first 32 inputs of the board, so don't worry if some of the buttons don't show up, you'll need another piece of software to read all the rest.
 
 ## 7.2.1 Programming (Arduino IDE)
 
@@ -402,7 +395,7 @@ After setting up the matrix and switches in the sketch, you can upload the code 
 
 ## 8. Assembly
 
-In this part we will need this parts:
+In this part we will need this parts:(refer to the bom for the specific parts)
 
 <table>
   <tr>
@@ -410,63 +403,66 @@ In this part we will need this parts:
     <th>Quantity</th>
   </tr>
   <tr>
-    <td>3D printed parts(enclosure)</td>
+    <td>3D printed parts(enclosure + shifter/clutch parts)</td>
     <td>1</td>
   </tr>
   <tr>
     <td>M3 Heat insert</td>
-    <td>6</td>
+    <td>14</td>
   </tr>
   <tr>
     <td>M4 Heat insert</td>
-    <td>12</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>M3x6 Socket screws</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>M3x12 Countersunk screws</td>
+    <td>11</td>
   </tr>
   <tr>
     <td>M4x8 Socket screws</td>
-    <td>6</td>
+    <td>4</td>
   </tr>
   <tr>
     <td>M4x16 Socket screws</td>
-    <td>6</td>
+    <td>4</td>
   </tr>
   <tr>
-    <td>M4x10 Countersunk screws</td>
+    <td>M3x30 Countersunk screws</td>
     <td>8</td>
   </tr>
-  <tr>
-    <td>M4x18 Brass standoff</td>
+  tr>
+    <td>Gx12 Female connector</td>
     <td>8</td>
-  </tr>
-  <tr>
-    <td>M3x10 Countersunk screws</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>M3x10 Button screws</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>M3 Spring washers</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>M3 Washers</td>
-    <td>4</td>
   </tr>
 </table>
 
 ## 8.1 Rear shell
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideShell1.png" width="600">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly3.png" width="600">
 
-Insert the M3 heat inserts from the top, taking utmost care that they are flush with the surface.
+Insert the hot inserts from the top, taking utmost care that they are flush with the surface.
+Then fix in position the PCB with 3x M3x6 Socket Screws
+
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly4.png" width="600">
+
+Then Rear Cover with 3xM3x12 Countersunk Screws and also the 12mm Connector.
+
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly5.png" width="600">
+
+As the whole unit will be held in place by the 4 front screws that will be attached directly to the QR, we can use the M5 countersunk screws with 4 temporary nuts.
+
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly8.png" width="600">
 
 ## 8.2 Grips
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideGrips1.png" width="200">
 
 
-Do the same with the grips, as shown in the photo (It has to be done on all three front pieces)
+Do the same with the grips, as shown in the photo (It has to be done on the two fronts parts)
 
 They are all M4 and are pretty short, so be sure you get the right ones, you can find the required ones in the BOM.
 
@@ -476,38 +472,34 @@ Once you've finished the grips, I recommend assembling them without the front pl
 
 TIP: Fit the rear screws now, before you cover the grips with Alcantara. The hole you need to cut to use the Allen wrench will be smaller and less noticeable.
 
-## 8.3 Front plate
+## 8.3 Shifter and Clutch Holders
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFrontplate1.png" width="600">
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly6.png" width="200">
 
-Fix the standoffs onto the countersunk screws ( **M4x10 to M4x18 standoff** ) with good force and a dash of threadlocker and wait a few hours before screwing anything to them, otherwise they will turn on themselves. It's important that you make sure these are very secure as they will provide the foundation for the rear plate.
+Insert the heat inserts into the holders, then use M3x30 countersunk screws to secure both shifter and clutches in position, taking care not to pinch the clutch cables.
+When the heat inserts have cooled sufficiently(10-20 minutes), use M3x12 countersunk screws to secure the assemblies to the plate.
+**NOTE**: You can add some double-sided tape to the 3D printed surface that will be facing the front plate.
+Why? Because two smooth surfaces have a tendency to move, even with a lot of torque as a preload.
 
-Now you can screw the buttons and the PCB with the help of the encoder nuts.
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="200">
 
-## Rear Plate
+## 8.4 Front plate
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideRearplate1.png" width="600">
+Now you can fix in position the buttons too.
 
-Fasten the shifters ( **M3 Washer + M3 Spring Washer + M3x10 Button Screw** ) and the clutches **M3x10 countersunk** screws on the **Rear plate**
+**NOTE**: if the bottom one doesn't have enough space to get under the clutch you can loose a little the holder, position the button, then fix everything again.
 
-**If you are crimping your own cables for the shifters/clutches, 15cm should be sufficient without causing too many issues with excess cable.**
+Now it’s time to connect every cable in position, take your time as this operation needs a lot of patience
+Not it’s time to fix the funky knobs with their grub screw and the button rings with double sided tape
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideRearplate2.png" width="600">
+## 8.5 Final touches
 
-Then join the back plate to the enclosure with **M3x10 countersunk** screws and fix in position the GX12 connector
+Once this is done, we can connect the shifter, clutch and GX12 connector cables to the PCB, then use **M4x10 countersunk screws** to join both parts together.
 
-Be careful not to pinch the clutch cables
+Now you can apply the encoder stickers and knobs using the **M4 grub** screws, same will be done with funky knobs (**M3 grub**)
 
-## 8.4 Final touches
+Finally fix the grips with the socket screws (Socket M4x8 and M4x16) (if you already inserted the rear M4x16mm Socket screws just cut a little hole with the exacto knife).
 
-Once this is done, we can connect the shifter, clutch and GX12 connector cables to the PCB, then use **M4x10 countersunk** screws to join both parts together. If you are crimping your own cables for the shifters/clutches, 15cm should be sufficient without causing too many issues with excess cable.
-
-Now you can apply the encoder stickers and knobs using the **M4 grub** screws, same will be done with funky knobs ( **M3 grub** )
-
-Finally fix the grips with the socket screws ( **Socket M4x8 and M4x16** ) (if you already inserted the rear M4x16mm Socket screws just cut a little hole with the exacto knife).
-
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFinal1.png" width="300">
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFinal2.png" width="250">
 
 ## 9. Troubleshooting
 
