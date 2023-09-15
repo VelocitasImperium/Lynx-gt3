@@ -61,7 +61,7 @@ Self-adhesive Alcantara Wrap for the grips is the best option here. Try to avoid
 
 ### Suggested alcantara/suede cutouts :
 
-### Top 4 halves : 21x11 cm / 9x5 in
+### 4 Cutouts : 21x11 cm / 9x5 in
 
 ## 3.3 Carbon Fiber/CNC
 
