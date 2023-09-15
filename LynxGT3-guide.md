@@ -483,22 +483,30 @@ TIP: Fit the rear screws now, before you cover the grips with Alcantara. The hol
 
 ## 8.3 Shifter and Clutch Holders
 
+These will be used to raise the clutch and shifter assembly, the clutch ones will hold the Funky in position, so if you plan to use the Funky switches, remember to fit them.
+
+Insert the heat inserts into the holders.
 <img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly6.png" width="200">
 
-Insert the heat inserts into the holders, then use M3x30 countersunk screws to secure both shifter and clutches in position, taking care not to pinch the clutch cables.
-When the heat inserts have cooled sufficiently(10-20 minutes), use M3x12 countersunk screws to secure the assemblies to the plate.
-**NOTE**: You can add some double-sided tape to the 3D printed surface that will be facing the front plate.
-Why? Because two smooth surfaces have a tendency to move, even with a lot of torque as a preload.
-
-<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="200">
+Then use M3x30 countersunk screws to secure both shifter and clutches on top of the holders, taking care not to pinch the clutch cables.
 
 ## 8.4 Front plate
 
 Now you can fix in position the buttons too.
 
-**NOTE**: if the bottom one doesn't have enough space to get under the clutch you can loose a little the holder, position the button, then fix everything again.
+Then you can mount the holders(with the shifter/clutch combo) on the front plate.
 
-Now it’s time to connect every cable in position, take your time as this operation needs a lot of patience
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly7.png" width="200">
+
+<img src="https://github.com/VelocitasImperium/Lynx-gt3/blob/main/images/Guide/LynxGt3-Assembly10.png" width="200">
+
+**NOTE**: You can add some double-sided tape to the 3D printed surface that will be facing the front plate.
+Why? Because two smooth surfaces have a tendency to move, even with a lot of torque as a preload.
+
+**NOTE**: If the lower buttons don't have enough room to get under the clutch, you can loosen the holder a little, position the button, and then tighten everything again.
+
+Now it’s time to connect every cable in position, take your time as this operation needs a lot of patience.
+
 Not it’s time to fix the funky knobs with their grub screw and the button rings with double sided tape
 
 ## 8.5 Final touches
