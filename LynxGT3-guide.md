@@ -203,7 +203,7 @@ In this part of the guide you will need this items:
   </tr>
   <tr>
     <td>3 Pin female connector</td>
-    <td>2 + 2 optiona(for encoders)</td>
+    <td>2 + 2 optional(for encoders)</td>
   </tr>
   <tr>
     <td>4 Pin female 90-Deg connector</td>
